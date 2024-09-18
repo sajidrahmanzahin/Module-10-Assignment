@@ -46,6 +46,3 @@ function findAverage(numbers) {
     const total = numbers.reduce((sum, num) => sum + num, 0);
     return total / numbers.length;
 }
-
-// Export all functions (optional if using module system)
-// module.exports = { calculateDifference, isOdd, findMin, filterEvenNumbers, sortArrayDescending, lowercaseFirstLetter, countVowels, findAverage };
